@@ -1,0 +1,48 @@
+/*-----------------------------------------
+    Hero
+-----------------------------------------*/
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__actions {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+
+
+/*-----------------------------------------
+    Promotion
+-----------------------------------------*/
+.promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #FFF4E7;
+};
+
+.promotion__heading {
+    color: #933C24;
+}
+/* varför blir den inte brun? */
+
+.promotion__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*varför hamnar dem inte i mitten?*/
