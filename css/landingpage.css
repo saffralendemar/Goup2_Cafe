@@ -3,13 +3,35 @@
 -----------------------------------------*/
 .hero {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start ;
+    align-items: center;
+    width: 100vp;
+    height: 900px;
     padding-left: 80px;
+    background-image: url(/images/heroImage.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .hero__content {
     display: flex;
     flex-direction: column;
+    gap: 64px;
+    max-width: 500px;
+}
+
+.hero__content__copy {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: #E9BD8C;
 }
 
 .hero__actions {
@@ -17,9 +39,40 @@
     gap: 24px;
 }
 
+/*-----------------------------------------
+    Menu
+-----------------------------------------*/
+.menu {
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+
+}
+
+.menu__container {
+    direction: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: auto;
+    width: 100%;
 
 
+}
 
+.menu__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1100px;
+}
+
+.menu__gallery img {
+  max-width: 350px;
+}
 
 
 /*-----------------------------------------
@@ -34,15 +87,21 @@
     background-color: #FFF4E7;
 };
 
-.promotion__heading {
-    color: #933C24;
-}
-/* varför blir den inte brun? */
-
-.promotion__content {
+.promotion__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    gap: 32px;
 }
+
+/*varför hamnar dem inte i mitten? gap ufungerar inte*/
+
+.promotion__heading {
+    color: #933C24;
+}
+
+
 
 /*varför hamnar dem inte i mitten?*/
