@@ -43,16 +43,16 @@ h3 {
     Menu
 -----------------------------------------*/
 .menu {
-    direction: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 120px auto;
     width: 100%;
 
 }
 
 .menu__container {
-    direction: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -102,6 +102,3 @@ h3 {
     color: #933C24;
 }
 
-
-
-/*varför hamnar dem inte i mitten?*/
