@@ -1,3 +1,8 @@
+.contact__title {
+font-size: 48px;
+font-weight: 600;
+}
+
 .contact {
     display: flex;
     justify-content: space-between;
@@ -8,11 +13,11 @@
 }
 
 .contact__info {
-    width: 45%;
+    width: 40%;
 }
 
 .contact__form {
-    width: 45%;
+    width: 35%;
 }
 
 .contact__info p {
@@ -26,10 +31,11 @@
 
 .form__label {
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .form__input,
+
 .form__textarea {
     width: 100%;
     box-sizing: border-box;
@@ -47,7 +53,7 @@
 }
 
 .form__textarea {
-    height: 160px;
+    height: 120px;
     resize: vertical;
 }
 
@@ -60,8 +66,9 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 80px;
-    padding: 60px 80px;
+    padding: 40px 80px;
     background-color: #373938;
     color: white;
 }
@@ -73,8 +80,9 @@
 }
 
 .footer__section h2 {
-    color: #E9BB85;
-    font-size: 32px;
+font-family: "Inter", sans-serif;
+color: #E9BB85;
+font-size: 24px;
 }
 
 .footer__section a {
@@ -84,4 +92,58 @@
 
 .footer__section a:hover {
     color: #E9BB85;
+}
+
+.header {
+background-color: white;
+}
+
+
+.header__link {
+color: #373938;
+}
+
+.form__label {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+.footer__social .logotype {
+width: 40px;
+height: 40px;
+}
+
+
+.footer__social div {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+
+.footer__social a {
+color: #E9BB85;
+}
+
+.footer__social p {
+color: #E9BB85;
+font-size: 16px;
+}
+
+.footer__section p {
+margin: 0;
+}
+
+.footer__social div {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 12px;
+}
+
+.footer__social a {
+color: #E9BB85;
+font-size: 32px;
 }
