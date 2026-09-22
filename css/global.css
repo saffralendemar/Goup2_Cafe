@@ -1,0 +1,122 @@
+/*-----------------------------------------
+    General
+-----------------------------------------*/
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/*-----------------------------------------
+    Fonts
+-----------------------------------------*/
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+}
+
+h1, h2 {
+  font-family: "Sansita Swashed", cursive;
+}
+
+h1 {
+    font-size: 74px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+.text--big {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.text--small {
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+/*-----------------------------------------
+    header
+-----------------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vp;
+    gap: 32px;
+    min-height: 80px;
+    padding: 40px 80px;
+    background-color:#373938;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
+
+.header__link {
+    color: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    color:white;
+}
+
+.header__link:hover {
+    color:#E9BB85;
+}
+
+/* Fun to mark link active? */
+
+.logotype {
+    width: 40px;
+}
+
+/*-----------------------------------------
+    Buttons
+-----------------------------------------*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    max-width: fit-content;
+    min-height: 48px;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.button--primary {
+    background-color: #933C24;
+    color: #ffffff;
+}
+
+.button--primary:hover {
+    background-color: #9E4B34;
+}
+
+.button--secondary {
+    color: #E9BB85;
+}
+
+.button--primary:hover {
+    background-color: #Button;
+}
