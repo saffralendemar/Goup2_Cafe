@@ -4,55 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-</head>
-<body>
-<nav>
-    <a href="../index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="about.html">About us</a>
-    <a href="contact.html">Contact Us</a>
-</nav>
-<main>
-    <section>
-        <h1>Contact us</h1>
 
-        <p>(456) 789-12301</p>
-        <p>info@modrino.co.uk</p>
-        <p>South 13th Street</p>
-        <p>New York America</p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <img class="logotype" src="../images/ellipse.png" alt="Logotype">
+    <nav>
+        <ul class="header__list">
+            <li>
+                <a class="header__link" href="../index.html">Home</a>
+            </li>
+            <li>
+                <a class="header__link" href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a class="header__link" href="about.html">About us</a>
+            </li>
+            <li>
+                <a class="header__link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact">
+
+    <section class="contact__info">
+        <h1 class="contact__title">Contact us</h1>
+            <p>(456) 789-12301</p>
+            <p>info@modrino.co.uk</p>
+            <p>South 13th Street</p>
+            <p>New York America</p>
     </section>
-    <section>
-      <form>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-</section>
+
+    <section class="contact__form">
+        <form class="form">
+
+            <label class="form__label" for="email">E-mail</label>
+            <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your e-mail"
+                required
+            >
+
+            <label class="form__label" for="subject">Subject</label>
+            <input
+                class="form__input"
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter your subject"
+                required
+            >
+
+            <label class="form__label" for="message">Message</label>
+            <textarea
+                class="form__textarea"
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                required
+            ></textarea>
+
+            <button class="button button--primary form__button" type="submit">
+                Send
+            </button>
+
+        </form>
+    </section>
+
 </main>
-<footer>
-    <section>
+
+<footer class="footer">
+
+    <section class="footer__section">
         <h2>Contact us</h2>
         <p>(456) 789-12301</p>
         <p>info@modrino.co.uk</p>
         <p>South 13th street</p>
-        <p>New York America</p>
+        <p>New york America</p>
     </section>
 
-    <nav>
-     <h2>Explore</h2>
-     <a href="../index.html">Home</a>
-     <a href="gallery.html">Gallery</a>
-     <a href="about.html">About us</a>
-     <a href="contact.html">Contact us</a>
+    <nav class="footer__section">
+        <h2>Explore</h2>
+        <a href="../index.html">Home</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact us</a>
+        <a href="#">Services</a>
     </nav>
 
-    <section>
-        <p>Follow us</p>
+    <section class="footer__section footer__social">
+            <img class="logotype" src="../images/ellipse.png" alt="Logotype">
+        <div>
+            <span>Follow us</span>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
     </section>
+
 </footer>
+
 </body>
 </html>

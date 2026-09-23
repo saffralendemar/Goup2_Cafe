@@ -1,0 +1,149 @@
+.contact__title {
+font-size: 48px;
+font-weight: 600;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 1120px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+.contact__info {
+    width: 40%;
+}
+
+.contact__form {
+    width: 35%;
+}
+
+.contact__info p {
+    margin-bottom: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.form__input,
+
+.form__textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.form__input {
+    height: 56px;
+}
+
+.form__textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form__button {
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 40px 80px;
+    background-color: #373938;
+    color: white;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__section h2 {
+font-family: "Inter", sans-serif;
+color: #E9BB85;
+font-size: 24px;
+}
+
+.footer__section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__section a:hover {
+    color: #E9BB85;
+}
+
+.header {
+background-color: white;
+}
+
+
+.header__link {
+color: #373938;
+}
+
+.form__label {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+.footer__social .logotype {
+width: 40px;
+height: 40px;
+}
+
+
+.footer__social div {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+
+.footer__social a {
+color: #E9BB85;
+}
+
+.footer__social p {
+color: #E9BB85;
+font-size: 16px;
+}
+
+.footer__section p {
+margin: 0;
+}
+
+.footer__social div {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 12px;
+}
+
+.footer__social a {
+color: #E9BB85;
+font-size: 32px;
+}
